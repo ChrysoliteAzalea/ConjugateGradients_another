@@ -1,0 +1,6 @@
+[submodule "task_generator"]
+	path = task_generator
+	url = https://github.com/ChrysoliteAzalea/ConjugateGradients_TaskGenerator
+[submodule "solution_verifier"]
+	path = solution_verifier
+	url = https://github.com/ChrysoliteAzalea/ConjugateGradients_SolutionVerifier
