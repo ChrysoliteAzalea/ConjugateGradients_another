@@ -1,6 +1,6 @@
-This is a parallel conjugate gradients program for shared memory systems. It can be compiled with any C++ compiler that supports OpenMP, for example:
+This is a parallel conjugate gradients program. It can be compiled with MPI compiler, for example:
 
-* g++ ConjugateGradients.cpp -openmp -o ConjugateGradients
+* mpicxx ConjugateGradients.cpp -o ConjugateGradients
 
 The only accepted command line argument is the task file name (can be generated with task generator). The task file has the following format:
 
